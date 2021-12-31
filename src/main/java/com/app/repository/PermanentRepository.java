@@ -18,4 +18,6 @@ public interface PermanentRepository extends JpaRepository<PermanentLicense, Int
 	
 	@Query("SELECT p FROM PermanentLicense p WHERE p.appointmentDate = current_date +1")
 	public ArrayList<PermanentLicense> findAllApplicants();
+
+	///sdskjdkjskj
 }
