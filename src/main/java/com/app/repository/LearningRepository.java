@@ -29,4 +29,6 @@ public interface LearningRepository extends JpaRepository<LearningLicense, Integ
 		
 		@Query("SELECT l FROM LearningLicense l WHERE l.appointmentDate = current_date AND l.appointmentTime = '15:30:00'")
 		public ArrayList<LearningLicense> findAllApplicantsWithTime330();
+
+		//dsdsfdsfdsfd
 }
